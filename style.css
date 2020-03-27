@@ -1,7 +1,5 @@
 body {
     font-family: arial, serif, sans-serif;
-    margin: auto;
-    max-width: 900px;
 }
 header {
     display: flex;
@@ -21,11 +19,22 @@ h3 {
 .jaune {
     color:#FFC107 ;
 }
-.zoneprincipale {
-  /*  display:flex;*/
+.zoneprincipale1 {
+    position: absolute;
+    left: 425px;
+    /*display:flex;*/
     width: 65%;
    /* float: right; */
-    padding: 3.5% 0 2% 0;
+   right: 250px;
+    
+}
+.zoneprincipale2 {
+    position: absolute;
+    left: 425px;
+    /*display:flex;*/
+    width: 65%;
+   /* float: right; */
+    top: 550px;
     
 }
 
@@ -38,8 +47,7 @@ main { display: flex }
     word-wrap: break-word;
 }
 #blocpage {
-    margin-left: 3em;
-    margin-right: 3em;
+ 
 }
 .mise_en_page {
     display: flex;
@@ -110,9 +118,10 @@ overflow: hidden;
     padding: 5% 0 5% 0;
 
 }
-#titre {
+#titre { position: absolute;
     width: 65%;
     line-height: 110%;
+    left: 380px;
 }
 #taillephoto {
     width: 150px;
