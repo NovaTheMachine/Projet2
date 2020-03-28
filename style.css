@@ -1,63 +1,131 @@
 body {
     font-family: arial, serif, sans-serif;
-    margin: auto;
+}
+header {
+    display: flex;
 }
 h1 {
-    -moz-text-size-adjust: 50%;
+    font-size: 250%;
+    padding: 15% 0 0 7%;
+    font-weight: lighter;
+}
+h2 {
+    padding-left: 7%;
+    letter-spacing: 0.5px;
+}
+h3 {
+    font-size: 90%;
 }
 .jaune {
     color:#FFC107 ;
 }
-.zoneprincipale {
-
-    width: 77%;
-
-    float: right;
-}
-.zonegauche{
-
-    width: 22%;
-
-    background-color:#FFC107 ;   
-
-    float: left;
-
-    margin-bottom: -1000px;   
-
-    padding-bottom: 1000px;
+.zoneprincipale1 {
+    position: absolute;
+    left: 425px;
+    /*display:flex;*/
+    width: 65%;
+   /* float: right; */
+   right: 250px;
     
+}
+.zoneprincipale2 {
+    position: absolute;
+    left: 425px;
+    /*display:flex;*/
+    width: 65%;
+   /* float: right; */
+    top: 550px;
+    
+}
+
+main { display: flex }
+.zonegauche{   
+    display:flex;
+    width: 30%;
+    flex-direction: column;
+    background-color:#FFC107 ;   
     word-wrap: break-word;
 }
 #blocpage {
-    margin: 1em;
+ 
 }
-h4 {
-    color:#FFC107 ;
-    text-align: center;
-    background-color:#263238;
-    }
-.logo {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom:10px ;
-    border-radius: 50%;
-    width: 100px;
-height: 100px ;
+.mise_en_page {
+    display: flex;
+}
+
+.annee {
+    padding: 0 15% 0 0;
+}
+
+.date {
+    display: flex;
+    width: 30%;
+}
+
+.date > p {
+    padding: 20% 10% 0 100%;;
+}
+
+.puce {
+    margin: 4% 2% 0 0%;
+}
+
+.etablissement {
+    width: 70%;
+}
+
+
+h4
+{
+color:#FFC107 ;
+text-align: center;
+background-color:#263238;
+}
+
+.img
+{ 
+margin: auto;
+border-radius: 50%;
+width: 150px;
+height: 150px ;
+overflow: hidden;
       }
 #blocimage {
-  margin-left: 3em;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 .line {
-    margin-bottom: -70px;
+    
 }
 #blocdroite {
-    margin: 1em;
+   
 }
 .underline 
 {
     text-decoration-line: underline ;
     text-decoration-color: #FFC107;
+}
+#informations > p {
+    padding: 8% 15% 8% 15%;
+}
+.formation  {
+    display: flex;
+}
+#photo {
+    width: 30%;
+    background-color:#FFC107 ;
+    padding: 5% 0 5% 0;
+
+}
+#titre { position: absolute;
+    width: 65%;
+    line-height: 110%;
+    left: 380px;
+}
+#taillephoto {
+    width: 150px;
+}
+i {
+    color:#FFC107
 }
