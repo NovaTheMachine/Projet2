@@ -47,6 +47,7 @@ main { display: flex }
     word-wrap: break-word;
 }
 #blocpage {
+    margin: 1em;
  
 }
 .mise_en_page {
@@ -90,11 +91,16 @@ width: 150px;
 height: 150px ;
 overflow: hidden;
       }
-#blocimage {
-    margin-left: auto;
-    margin-right: auto;
-  
-}
+.blocimage {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+
 .line {
     
 }
@@ -126,6 +132,6 @@ overflow: hidden;
 #taillephoto {
     width: 150px;
 }
-i {
+i.zoneprincipale1 {
     color:#FFC107
 }
