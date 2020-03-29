@@ -34,8 +34,15 @@ h3 {
     /*display:flex;*/
     width: 65%;
    /* float: right; */
-    top: 550px;
-    
+    top: 580px;
+}
+.zoneprincipale3 {
+    position: absolute;
+    left: 425px;
+    /*display:flex;*/
+    width: 65%;
+   /* float: right; */
+    top: 820px;
 }
 
 main { display: flex }
@@ -55,7 +62,7 @@ main { display: flex }
 }
 
 .annee {
-    padding: 0 15% 0 0;
+    padding: 0 30px 0 0;
 }
 
 .date {
@@ -69,10 +76,13 @@ main { display: flex }
 
 .puce {
     margin: 4% 2% 0 0%;
+    color:#FFC107 ;
 }
 
 .etablissement {
-    width: 70%;
+    position: absolute;
+    left: 200px;
+    top: 45px;
 }
 
 
@@ -95,7 +105,6 @@ overflow: hidden;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
     align-items: center;
     justify-content: space-evenly;
     
@@ -132,6 +141,11 @@ overflow: hidden;
 #taillephoto {
     width: 150px;
 }
-i.zoneprincipale1 {
+i.fas fa-graduation-cap fa-lg{
     color:#FFC107
+}
+hr{
+    color:#FFC107
+    align:left ;
+    width: "80%" ;
 }
