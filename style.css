@@ -141,6 +141,7 @@ overflow: hidden;
 #taillephoto {
     width: 150px;
 }
-i.fas fa-graduation-cap fa-lg{
-    color:#FFC107
+.fa-graduation-cap, .fa-pencil-alt, .fa-suitcase{
+    color:#FFC107 ;
+    padding-right: 3%;
 }
