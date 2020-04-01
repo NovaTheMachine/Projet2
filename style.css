@@ -6,11 +6,9 @@ header {
 }
 h1 {
     font-size: 250%;
-    padding: 15% 0 0 7%;
     font-weight: lighter;
 }
 h2 {
-    padding-left: 7%;
     letter-spacing: 0.5px;
 }
 h3 {
@@ -21,16 +19,17 @@ h3 {
 }
 .zoneprincipale1 {
     position: absolute;
-    left: 425px;
+    left: 35%;
     /*display:flex;*/
     width: 65%;
    /* float: right; */
    right: 250px;
+   top: 250px;
     
 }
 .zoneprincipale2 {
     position: absolute;
-    left: 425px;
+    left: 35%;
     /*display:flex;*/
     width: 65%;
    /* float: right; */
@@ -38,7 +37,7 @@ h3 {
 }
 .zoneprincipale3 {
     position: absolute;
-    left: 425px;
+    left: 35%;
     /*display:flex;*/
     width: 65%;
    /* float: right; */
@@ -136,7 +135,8 @@ overflow: hidden;
 #titre { position: absolute;
     width: 65%;
     line-height: 110%;
-    left: 380px;
+    left: 35%;
+    top: 100px;
 }
 #taillephoto {
     width: 150px;
