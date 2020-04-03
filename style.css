@@ -60,8 +60,14 @@ main { display: flex }
     display: flex;
 }
 
-.annee {
-    padding: 0 30px 0 0;
+.annee {display: flex;
+    
+}
+.annee2 {
+    position: absolute;
+    left:30px;
+    display: flex;
+    
 }
 
 .date {
@@ -77,13 +83,23 @@ main { display: flex }
     margin: 4% 2% 0 0%;
     color:#FFC107 ;
 }
+.puce2 {
+    position: absolute;
+    top:40px;
+    margin: 0% 2% 0 0%;
+    color:#FFC107 ;
+}
 
 .etablissement {
     position: absolute;
     left: 200px;
     top: 45px;
 }
-
+.etablissement2 {
+    position: absolute;
+    left: 200px;
+    width: 500%;
+}
 
 h4
 {
@@ -144,4 +160,10 @@ overflow: hidden;
 .fa-graduation-cap, .fa-pencil-alt, .fa-suitcase{
     color:#FFC107 ;
     padding-right: 2%;
+}
+.zone2 {display: flex; 
+    position: relative;
+    top: 50px;
+}
+.zone1 {display: flex; 
 }
