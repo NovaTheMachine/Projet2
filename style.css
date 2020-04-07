@@ -79,14 +79,15 @@ main { display: flex }
     padding: 20% 10% 0 100%;;
 }
 
-.puce {
+.puce {display: flex;
+    justify-content: center;
     margin: 4% 2% 0 0%;
     color:#FFC107 ;
 }
 .puce2 {
-    position: absolute;
-    top:40px;
-    margin: 0% 2% 0 0%;
+    display: flex;
+    justify-content: center;
+    margin: 4% 2% 0 0%;
     color:#FFC107 ;
 }
 
