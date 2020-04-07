@@ -41,7 +41,7 @@ h3 {
     /*display:flex;*/
     width: 65%;
    /* float: right; */
-    top: 820px;
+    top: 920px;
 }
 
 main { display: flex }
@@ -54,6 +54,10 @@ main { display: flex }
 }
 #blocpage {
     margin: 1em;
+ 
+}
+#blocpage2 { 
+    margin: 1em 1em 50% 1em;
  
 }
 .mise_en_page {
@@ -143,6 +147,10 @@ overflow: hidden;
 .formation  {
     display: flex;
 }
+.formation2  {width: 65%;
+    justify-content: space-between;
+    display: flex;
+}
 #photo {
     width: 30%;
     background-color:#FFC107 ;
@@ -167,4 +175,7 @@ overflow: hidden;
     top: 50px;
 }
 .zone1 {display: flex; 
+}
+.taches {
+    width: 500px;
 }
