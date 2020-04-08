@@ -1,3 +1,24 @@
+@media all and (max-width:480px)
+{
+.blocpage
+article, aside {display: none;}
+section q{display: none;}
+article, aside {display: none;}
+{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+}
+@media (max-width:480px) and (max-width:780px)
+{
+
+}
+@media (max-width:781px) and (max-width:979px)
+{
+
+}
+
 body {
     font-family: arial, serif, sans-serif;
 }
