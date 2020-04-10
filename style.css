@@ -1,24 +1,9 @@
-@media all and (max-width:480px)
+@media screen and (max-width:480px)
 {
-.blocpage
-article, aside {display: none;}
-section q{display: none;}
-article, aside {display: none;}
-{
-    width: auto;
-    margin-bottom: 15px;
-}
-
-}
-@media (max-width:480px) and (max-width:780px)
-{
-
-}
-@media (max-width:781px) and (max-width:979px)
-{
-
-}
-
+    .header {display:none; }
+    aside.zonegauche {display:none; }
+    #blocpage {text-align: center;}
+    }
 body {
     font-family: arial, serif, sans-serif;
 }
@@ -198,5 +183,5 @@ overflow: hidden;
 .zone1 {display: flex; 
 }
 .taches {
-    width: 500px;
+
 }
