@@ -3,6 +3,7 @@ body {
 }
 header {
     display: flex;
+    flex-wrap: wrap;
 }
 h1 {
     font-size: 250%;
@@ -17,10 +18,16 @@ h3 {
 .jaune {
     color:#FFC107 ;
 }
+.leftZone {
+    width: 35%;
+    min-width: 300px;
+}
+.rightZone {
+    width: 65%;
+    min-width: 600px;
+}
+
 .zoneprincipale1 {
-    position: absolute;
-    left: 35%;
-    /*display:flex;*/
     width: 65%;
    /* float: right; */
    right: 250px;
@@ -47,7 +54,6 @@ h3 {
 main { display: flex }
 .zonegauche{   
     display:flex;
-    width: 30%;
     flex-direction: column;
     background-color:#FFC107 ;   
     word-wrap: break-word;
@@ -152,17 +158,13 @@ overflow: hidden;
     display: flex;
 }
 #photo {
-    width: 30%;
     background-color:#FFC107 ;
     padding: 5% 0 5% 0;
 
 }
-#titre { position: absolute;
-    width: 65%;
+#titre {
     line-height: 110%;
-    left: 35%;
-    top: 100px;
-}
+    }
 #taillephoto {
     width: 150px;
 }
