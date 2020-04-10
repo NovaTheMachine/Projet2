@@ -1,9 +1,12 @@
 @media screen and (max-width:480px)
 {
-    .header {display:none; }
-    aside.zonegauche {display:none; }
+    .header {width: 100% }
+    aside.zonegauche {width: 100% ; position:relative;margin-left:-50% ;}
     #blocpage {text-align: center;}
-    }
+    section.zoneprincipale1{position:relative;top:120%;}
+    section#titre {width: 100%;position:absolute;top: 2%;left: 10% ; }
+    section#photo{width: 100%; position:relative;top: 1010px;left: 0% ;}
+}
 body {
     font-family: arial, serif, sans-serif;
 }
