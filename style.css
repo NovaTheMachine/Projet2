@@ -4,6 +4,7 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
+    flex-flow: row;
 }
 h1 {
     font-size: 250%;
@@ -23,18 +24,19 @@ h3 {
     min-width: 300px;
 }
 .rightZone {
+    margin-left: 2%;
     width: 65%;
     min-width: 600px;
 }
 
 .zoneprincipale1 {
+    margin-left: 2%;
+    position: relative;
     width: 65%;
    /* float: right; */
-   right: 250px;
-   top: 250px;
-    
 }
 .zoneprincipale2 {
+    margin-left: 2%;
     position: absolute;
     left: 35%;
     /*display:flex;*/
@@ -43,6 +45,7 @@ h3 {
     top: 580px;
 }
 .zoneprincipale3 {
+    margin-left: 2%;
     position: absolute;
     left: 35%;
     /*display:flex;*/
@@ -50,13 +53,17 @@ h3 {
    /* float: right; */
     top: 920px;
 }
-
-main { display: flex }
+main { 
+display: flex ;
+flex-flow: row-reverse;
+}
 .zonegauche{   
     display:flex;
     flex-direction: column;
     background-color:#FFC107 ;   
     word-wrap: break-word;
+    float: left;
+    width: 35%;
 }
 #blocpage {
     margin: 1em;
@@ -104,7 +111,6 @@ main { display: flex }
 .etablissement {
     position: absolute;
     left: 200px;
-    top: 45px;
 }
 .etablissement2 {
     position: absolute;
@@ -119,8 +125,7 @@ text-align: center;
 background-color:#263238;
 }
 
-.img
-{ 
+.img{ 
 margin: auto;
 border-radius: 50%;
 width: 150px;
@@ -162,8 +167,7 @@ overflow: hidden;
     padding: 5% 0 5% 0;
 
 }
-#titre {
-    line-height: 110%;
+#titre {line-height: 110%;
     }
 #taillephoto {
     width: 150px;
