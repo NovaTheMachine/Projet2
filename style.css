@@ -1,11 +1,31 @@
+@media all and (max-width:480px)
+{
+}
+@media (max-width:780px) and (max-width:1024px)
+{
+    {
+        main.pincipale { display: flex;
+            flex-wrap: wrap;
+            
+        }
+        aside.zonegauche{display: block; 
+            width: 100%;
+            justify-content:disabled
+        }
+        }
+}
+@media (max-width:2024px)
+{
+    main   
+    { 
+        
+}
 body {
     font-family: arial, serif, sans-serif;
 }
 header {
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: row;
-}
+    }
 h1 {
     font-size: 250%;
     font-weight: lighter;
