@@ -1,18 +1,31 @@
 @media all and (max-width:480px)
 {
 }
-@media (max-width:780px) and (max-width:1024px)
+@media (max-width:700px) and (max-width:1024px)
 {
-    {
-        main.pincipale { display: flex;
+    header{ display: flex;
+        flex-wrap: wrap;
+flex-direction: column;
+
+}    
+main.pincipale { display: flex;
             flex-wrap: wrap;
             
         }
-        aside.zonegauche{display: block; 
+ 
+aside.zonegauche{display: block; 
             width: 100%;
             justify-content:disabled
         }
-        }
+        
+#titreflex{
+    flex-basis: 100%;
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+   
+}
+
 }
 @media (max-width:2024px)
 {
@@ -40,7 +53,7 @@ h3 {
     color:#FFC107 ;
 }
 .leftZone {
-    width: 35%;
+    flex-basis: 35%;
     min-width: 300px;
 }
 .rightZone {
