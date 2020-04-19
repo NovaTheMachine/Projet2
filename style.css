@@ -3,46 +3,51 @@
 }
 @media (max-width:700px) and (max-width:1024px)
 {
-    header{ display: flex;
-        flex-wrap: wrap;
-flex-direction: column;}
 
-    #blocpage {
+    header{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#blocpage{
     margin: 1em;
     text-align: center;
-    font-size: 120%;}
+    font-size: 120%;
+}
 
 #blocpage2 {
     font-size: 120%;
 }
    
-main.pincipale { display: flex;
-            flex-wrap: wrap;
-            
-        }
- .zoneprincipale3 ,.zoneprincipale2 ,.zoneprincipale1{
+main.pincipale {  
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.zoneprincipale3 ,.zoneprincipale2 ,.zoneprincipale1{
     margin-left: 0% !important;
     left: 35%;
     width: 100%;
-               }
-aside.zonegauche{display: block; 
-            width: 100%;
-            justify-content:disabled
-        }
+}
+
+aside.zonegauche{
+    display: block; 
+    width: 100%;
+    justify-content:disabled
+}
         
 #titreflex{
     flex-basis: 100%;
-display: flex;
-flex-flow: wrap;
-justify-content: center;
-   
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 }
 @media (max-width:2024px)
 {
-    main   
-    { 
+main{ 
         
 }
 body {
@@ -50,7 +55,7 @@ body {
 }
 header {
     display: flex;
-    }
+}
 h1 {
     font-size: 250%;
     font-weight: lighter;
@@ -66,7 +71,7 @@ h3 {
 }
 .leftZone {
     flex-basis: 35%;
-    }
+}
 .rightZone {
    
 }
@@ -76,12 +81,14 @@ h3 {
     width: 100%;
    /* float: right; */
 }
+
 .zoneprincipale2 {
     margin-left: 2%;
     /*display:flex;*/
     width: 100%;
    /* float: right; */
 }
+
 .zoneprincipale3 {
     margin-left: 2%;
     left: 35%;
@@ -89,11 +96,13 @@ h3 {
     width: 100%;
    /* float: right; */
 }
+
 main { 
 display: flex ;
 flex-flow: row-reverse;
 justify-content: start;
 }
+
 .zonegauche{   
     display:flex;
     flex-direction: column;
@@ -102,119 +111,123 @@ justify-content: start;
     float: left;
     width: 35%;
 }
+
 #blocpage {
     margin: 1em;
- 
 }
+
 #blocpage2 { 
     margin: 1em 1em 1em 1em;
- 
 }
-.mise_en_page {
+
+.mise_en_page{
     display: flex;
 }
 
-.annee {
+.annee{
     display: flex;
-    
-}
-.annee2 {
-    display: flex;
-    
 }
 
-.date {
+.annee2{
+    display: flex;
+}
+
+.date{
     display: flex;
     width: 30%;
 }
 
-.date > p {
+.date > p{
     padding: 20% 10% 0 100%;;
 }
 
-.puce {
+.puce{
     margin: 12% 2% 0 0%;
     color:#FFC107 ;
 }
-.puce2 {
+
+.puce2{
         margin: 4% 2% 0 0%;
     color:#FFC107 ;
 }
 
-.etablissement {
+.etablissement{
     margin-left: 10%;
 }
-.etablissement2 {
+
+.etablissement2{
     margin-left: 14%;
 }
 
-h4
-{
-color:#FFC107 ;
-text-align: center;
-background-color:#263238;
+h4{
+    color:#FFC107 ;
+    text-align: center;
+    background-color:#263238;
 }
 
 .img{ 
-margin: auto;
-border-radius: 50%;
-width: 150px;
-height: 150px ;
-overflow: hidden;
-      }
-.blocimage {
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px ;
+    overflow: hidden;
+}
+
+.blocimage{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    
-  }
+}
 
-.line {
-    
-}
-#blocdroite {
-   
-}
-.underline 
-{
+.underline{
     text-decoration-line: underline ;
     text-decoration-color: #FFC107;
 }
-#informations > p {
+
+#informations > p{
     padding: 8% 15% 8% 15%;
 }
-.formation  {
+
+.formation{
     display: flex;
 }
-.formation2  {
+
+.formation2{
     justify-content: space-between;
     display: flex;
 }
-#photo {
+
+#photo{
     background-color:#FFC107 ;
     padding: 5% 0 5% 0;
-
 }
-#titre {left: 1%;
+
+#titre{
+    left: 1%;
     position: relative;
     line-height: 110%;
 }
-#taillephoto {
+
+#taillephoto{
     width: 150px;
 }
+
 .fa-graduation-cap, .fa-pencil-alt, .fa-suitcase{
     color:#FFC107 ;
     padding-right: 2%;
 }
-.zone2 {display: flex; 
+
+.zone2{
+    display: flex; 
     top: 50px;
 }
-.zone1 {display: flex;
+.zone1{
+    display: flex;
     top: 50px;
 }
-.taches {
+.taches{
     width: 100%;
 }
 hr{
